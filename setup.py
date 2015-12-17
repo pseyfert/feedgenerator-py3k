@@ -20,6 +20,7 @@ CLASSIFIERS = ['Development Status :: 3 - Alpha',
                'Programming Language :: Python',
                'Programming Language :: Python :: 2.7',
                'Programming Language :: Python :: 3.2',
+               'Programming Language :: Python :: 3.3',
                'Topic :: Internet :: WWW/HTTP',
                'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
                'Topic :: Software Development :: Libraries :: Python Modules',
@@ -30,11 +31,11 @@ AUTHOR_EMAIL = 'foundation@djangoproject.com'
 MAINTAINER = 'Dirk Makowski'
 MAINTAINER_EMAIL = 'dm@parenchym.com'
 KEYWORDS = "feed atom rss".split(' ')
-VERSION = '1.5.dev'
+VERSION = '1.7'
 
 TEST_SUITE = 'tests_feedgenerator'
 
-REQUIRES = ['pytz', 'six']
+REQUIRES = ['pytz >= 0a', 'six']
 
 setup(
     name=NAME,
